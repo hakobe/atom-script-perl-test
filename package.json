@@ -1,0 +1,22 @@
+{
+  "name": "script-perl-test",
+  "main": "./lib/script-perl-test",
+  "version": "0.0.0",
+  "description": "Runs Perl tests for the currently active file using atom-script as a backend.",
+  "keywords": [
+  ],
+  "consumedServices": {
+    "default-script-runtime": {
+      "versions": {
+        "0.1.0": "consumeDefaultRuntime"
+      }
+    }
+  },
+  "repository": "https://github.com/hakobe/script-perl-test",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
