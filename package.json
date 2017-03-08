@@ -16,5 +16,8 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-package-deps": "^4.4.1"
+  },
+  "package-deps": ["script"]
 }
